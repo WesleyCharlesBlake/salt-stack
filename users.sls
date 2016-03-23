@@ -1,0 +1,2 @@
+beowolf:
+  user.absent
