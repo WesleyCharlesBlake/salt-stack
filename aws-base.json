@@ -24,8 +24,8 @@
     {
       "type": "salt-masterless",
       "skip_bootstrap": "true",
-      "local_state_tree": "/home/jenkins/workspace/packed-salt/salt",
-      "minion_config" : "/home/jenkins/workspace/packed-salt/salt/salt/minion"
+      "local_state_tree": "/path/to/this/salt",
+      "minion_config" : "/path/to/this/salt/minion"
     }
     ],
   
@@ -42,7 +42,7 @@
     "ssh_username": "admin",
     "ssh_password": "changeme1234!@#",
     "ssh_keypair_name": "dev-ops",
-    "ssh_private_key_file": "/home/jenkins/.ssh/your-aws-key.pem",
+    "ssh_private_key_file": "/path/to/your-aws-key.pem",
     "ami_block_device_mappings": [    
         {
             "device_name": "/dev/xvda",

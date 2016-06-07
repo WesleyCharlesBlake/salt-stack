@@ -12,4 +12,4 @@ Make sure you dont have any syntax errors
 
 Take not of the AMI id once its built successfully. You can then plug that into your a terraform script, and build off this ami 
 
-Have a look at my TerraForm example (https://github.com/WesleyCharlesBlake/aws-terraform)
+Have a look at my TerraForm [example](https://github.com/WesleyCharlesBlake/aws-terraform) or read about packer and TerraForm [here](http://blog.stratotechnology.com/packer-and-terraform/)
